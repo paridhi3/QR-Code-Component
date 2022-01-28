@@ -1,0 +1,54 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-gray: hsl(212, 45%, 89%)
+  --grayish-blue: hsl(220, 15%, 55%)
+  --dark-blue: hsl(218, 44%, 22%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+  width: 18rem;
+  margin: auto;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.card-img-top {
+  border-radius: 1.5rem;
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: 700;
+  padding-bottom: 7px;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-text {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  color: hsl(218, 44%, 22%);
+}
+
+a {
+  color: hsl(218, 44%, 22%);
+}
